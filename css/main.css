@@ -1,0 +1,53 @@
+body {
+  font-family: 'Lato', sans-serif;
+
+  /* Background Image */
+  background-image: url('../assets/cradle-mountain2.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+main {
+  /* Text Color */
+  color: #FAFAFA;
+
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+}
+
+#name {
+	font-size: 3.75em;
+}
+
+#title {
+	font-size: 1.5rem;
+}
+
+#sociallinks-container {
+  text-align: center;
+  text-decoration: none;
+}
+
+#social-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#social-links li {
+  display: inline;
+}
+
+#social-links i {
+	padding: 10px;
+  font-size: 2em;
+}
+
+#social-links a {
+	color: #FAFAFA;
+}
