@@ -1,8 +1,11 @@
 body {
   font-family: 'Lato', sans-serif;
 
+  /* Fill entire page */
+  margin: 0;
+
   /* Background Image */
-  background-image: url('../assets/cradle-mountain2.jpg');
+  background-image: url('../assets/cradle-mountain.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
